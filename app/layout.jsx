@@ -1,4 +1,4 @@
-export default function RootLayout({ children }) {
+"use client";export default function RootLayout({ children }) {
   return (
     <html lang="pl">
       <body>{children}</body>
